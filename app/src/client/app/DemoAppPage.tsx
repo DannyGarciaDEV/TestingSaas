@@ -25,7 +25,7 @@ export default function DemoAppPage() {
           </h2>
         </div>
         <p className='mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600 dark:text-white'>
-        Create Notes for efficient organization.
+        Create Notes 
         </p>
         {/* begin AI-powered Todo List */}
         <div className='my-8 border rounded-3xl border-gray-900/10 dark:border-gray-100/10'>
@@ -227,10 +227,7 @@ function NewTaskForm({ handleCreateTask }: { handleCreateTask: typeof createTask
             ))}
             <div className='flex flex-col gap-3'>
               <div className='flex items-center justify-between gap-3'>
-                <label htmlFor='time' className='text-sm text-gray-600 dark:text-gray-300 text-nowrap font-semibold'>
-                
-                </label>
-                
+              
               </div>
             </div>
           </div>
