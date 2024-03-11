@@ -9,7 +9,7 @@ import logo from '../static/logo.png';
 import openSaasBanner from '../static/open-saas-banner.png';
 import { features, navigation, faqs, footerNavigation, testimonials } from './contentSections';
 import DropdownUser from '../components/DropdownUser';
-import { DOCS_URL } from '../../shared/constants';
+
 import { UserMenuItems } from '../components/UserMenuItems';
 import DarkModeSwitcher from '../admin/components/DarkModeSwitcher';
 
