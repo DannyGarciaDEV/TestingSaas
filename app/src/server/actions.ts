@@ -334,3 +334,4 @@ export const updateCurrentUser: UpdateCurrentUser<Partial<User>, User> = async (
     data: user,
   });
 };
+
